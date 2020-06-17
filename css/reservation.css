@@ -1,0 +1,103 @@
+body {
+  /* background-image: url("/images/ambience17.jpg"); */
+  background-color: whitesmoke;
+}
+
+.form {
+  margin-top: -630px;
+  margin-left: 610px;
+  padding: 40px;
+}
+
+#title {
+  color: firebrick;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.jumbotron {
+  margin: 40px;
+  background-image: url("/images/cafe2.jpeg");
+  background-attachment: fixed;
+
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+  /* opacity: 0.5; */
+}
+
+.footer {
+  width: auto;
+  height: 550px;
+  text-align: center;
+  background-color: mistyrose;
+  margin-top: 50px;
+}
+
+.centercolumn {
+  float: none;
+  margin-top: 10px;
+  width: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-icons .fa {
+  width: 45px;
+  height: 45px;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-icons .fa {
+  font-size: 1.8em;
+}
+
+.social-icons.icon-circle .fa {
+  border-radius: 50%;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-bottom: 10px;
+}
+
+.social-icons.icon-rotate .fa:hover,
+.social-icons.icon-rotate .fa:active {
+  -webkit-transform: scale(1.1) rotate(360deg);
+  -moz-transform: scale(1.1) rotate(360deg);
+  -ms-transform: scale(1.1) rotate(360deg);
+  -o-transform: scale(1.1) rotate(360deg);
+  transform: scale(1.1) rotate(360deg);
+}
+
+.social-icons .fa-instagram {
+  background-color: #a1755c;
+}
+
+.social-icons .fa-facebook {
+  background-color: #3c599f;
+}
+
+.social-icons .fa-pinterest {
+  background-color: #cc2127;
+}
+
+.social-icons .fa-youtube-play {
+  background-color: #c52f30;
+}

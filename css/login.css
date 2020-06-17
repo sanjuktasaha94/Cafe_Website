@@ -1,0 +1,98 @@
+.body {
+    background-image: url("/images/coffee3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.leftContent {
+    float: left;
+    margin: 15px;
+    margin-top: 20px;
+    width: 500px;
+    background-color: papayawhip;
+    padding: 40px;
+}
+
+.rightContent {
+    float: right;
+    width: 500px;
+    margin-top: 20px;
+    padding: 40px;
+    background-color: papayawhip;
+}
+
+.footer {
+    width: auto;
+    height: 550px;
+    text-align: center;
+    background-color: mistyrose;
+    margin-top: 700px;
+}
+
+.centercolumn {
+    float: none;
+    margin-top: 10px;
+    width: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons .fa {
+    width: 45px;
+    height: 45px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFF;
+    color: rgba(255, 255, 255, 0.8);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-icons .fa {
+    font-size: 1.8em;
+}
+
+.social-icons.icon-circle .fa {
+    border-radius: 50%;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-inline li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+.social-icons.icon-rotate .fa:hover,
+.social-icons.icon-rotate .fa:active {
+    -webkit-transform: scale(1.1) rotate(360deg);
+    -moz-transform: scale(1.1) rotate(360deg);
+    -ms-transform: scale(1.1) rotate(360deg);
+    -o-transform: scale(1.1) rotate(360deg);
+    transform: scale(1.1) rotate(360deg);
+}
+
+.social-icons .fa-instagram {
+    background-color: #A1755C;
+}
+
+.social-icons .fa-facebook {
+    background-color: #3C599F;
+}
+
+.social-icons .fa-pinterest {
+    background-color: #CC2127;
+}
+
+.social-icons .fa-youtube-play {
+    background-color: #C52F30;
+}
